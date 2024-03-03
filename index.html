@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+</head>
+
+<body>
+  
+  <header class="header">
+
+    <nav class="nav-bar container">
+
+      <a class="nav-logo" id="nav_logo">kev eph.</a>
+
+      <div class="nav-menu nav-grid" id="nav_menu">
+
+        <ul class="nav-list">
+
+          <li><a href="#home" class="nav-link nav-icon-toggle" onClick="document.getElementById('home-section').scrollIntoView();"><i class="uil uil-home nav-icon"></i> Home</a></li>
+          <li><a href="#aboutme" class="nav-link nav-icon-toggle" onClick="document.getElementById('about-section').scrollIntoView();"><i class="uil uil-user nav-icon"></i> About Me</a></li>
+          <li><a href="#skills" class="nav-link nav-icon-toggle" onClick="document.getElementById('skills-section').scrollIntoView();"><i class="uil uil-brackets-curly nav-icon"></i> Skills</a></li>
+          <li><a href="#portfolio" class="nav-link nav-icon-toggle"><i class="uil uil-image nav-icon"></i> Portfolio (WIP)</a></li>
+          <li><a href="#services" class="nav-link nav-icon-toggle"><i class="uil uil-bag nav-icon"></i> Services (WIP)</a></li>
+          <li><a href="#contactme" class="nav-link nav-icon-toggle" onClick="document.getElementById('contact-section').scrollIntoView();"><i class="uil uil-at nav-icon"></i> Contact me</a></li>
+        </ul>
+
+      </div>
+
+      <a class="nav-mode nav-item" id="nav_mode"><i class="uil uil-sun"></i></a>
+      <a class="nav-toggle nav-item" id="nav_toggle"><i class="uil uil-apps"></i></a>
+      <a class="nav-close nav-item" id="nav_close"><i class="uil uil-x"></i></a>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="home section" id="home-section">
+
+      <div class="home-container container">
+
+        <div class="home-content"> 
+
+            <div class="orbiit-spinner">
+
+                <div class="orbit"></div>
+              <div class="orbit"></div>
+              <div class="orbit"></div>
+              <div class="planet"></div>
+            </div>
+          <div class="intro-text">
+
+            <h1 class="intro-title">Hello world, I am Kevin Willer</h1>
+            <h3 class="intro-subtitle">Frontend Developer
+            </h3>
+            <p class="intro-description">A Software Engineer in the making with a passion for Frontend development, UI and all things related. This is the place where all my projects come to life!</p>
+
+            <a href="#footer" class="scroll-down"><i class="uil uil-angle-double-down" onClick="document.getElementById('footer-section').scrollIntoView();"></i></a>
+
+            <div class="home-social">
+
+              <a href="https://www.linkedin.com/in/kev-eph/" target="_blank" class="social-icon"><i class="uil uil-linkedin-alt"></i></a>
+              <a href="https://github.com/kev-eph" target="_blank" class="social-icon"><i class="uil uil-github-alt"></i></a>
+              <a href="#contactme" class="social-icon" onClick="document.getElementById('contact-section').scrollIntoView();"><i class="uil uil-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="scroll-upContainer" onClick="document.getElementById('home-section').scrollIntoView();" id="scroll_up">
+      <a href="#home" class="scroll-up"><i class="uil uil-angle-double-up"></i></a>
+    </div>
+
+    <section class="about section" id="about-section">
+      <div class="about-container container">
+        <h1 class="section-title">About Me</h1>
+        <div class="about-deskSubContainer">
+        <img src="photo.jpg" alt="" class="about-photo">
+        <div class="about-textContainer">
+        <h3>A dedicated <span class="highlighted-words">Frontend Developer</span> based in Brazil, Paraná</h3>
+        <p class="about-description">Since I was a kid being a programmer was always a dream of mine, I had contact with circuit boards and programming languages really early on in my life, and since then i have been studying and expanding my knowledge. I possess skills in <span class="highlighted-words">Web Development</span>, <span class="highlighted-words">Back End development</span> and with tools such as, <span class="highlighted-words">Github</span>, <span class="highlighted-words">Figma</span> and <span class="highlighted-words">Photoshop</span>. All that culminates in crafting responsive and engaging interfaces.</p>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="journey section">
+      <div class="journey-section container">
+        <div class="journey-content content">
+          <div class="journey-tabs">
+            <div class="education  tab">
+
+              <i class="uil uil-backpack tab-icon"></i>
+              <h4 class="tab-title ">Education</h4>
+            </div>
+            <div class="qualification tab">
+
+              <i class="uil uil-briefcase tab-icon"></i>
+              <h4 class="tab-title">Professional</h4>
+            </div>
+          </div>
+
+          <div class="journey-data">
+            
+            <div></div>
+
+            <div>
+              <span class="journey-rounder"></span>
+              <span class="journey-line"></span>
+            </div>
+
+            <div class="journey-entry">
+              <span class="entry-title">Megamidia Group</span>
+              <h5>2019 - 2020</h5>
+              <div class="calendar">
+              <h5>Minor Apprentice</h5>
+            </div>
+          </div>
+
+            <div class="journey-entry">
+              <span class="entry-title">Universidade Positivo</span>
+              <div class="calendar">
+              <h5>2021 - 2025</h5>
+              </div>
+              <h5>Software Engineering</h5>
+            </div>
+            
+          
+            <div>
+              <span class="journey-rounder"></span>
+              <span class="journey-line"></span>
+            </div>
+          
+            <div></div>
+            
+          <div></div>
+
+          <div>
+            <span class="journey-rounder"></span>
+            
+          </div>
+
+            <div class="journey-entry">
+              <span class="entry-title">Aker Solutions</span>
+            <div class="calendar">
+              <h5>2022 - Ongoing</h5>
+            </div>
+              <h5> Data Analysis Intern</h5>
+            </div>
+          
+        </div>
+
+        </div> 
+      </div>
+    </section>
+
+    <section class="skills section" id="skills-section">
+      <div class="skills-container container">
+        <div class="skills-content">
+          <h1 class="section-title">Skills</h1>
+          <p class="skills-subtitle">Skills that I acquired and use during projects</p>
+          <div class="skills-deskSubContainer">
+          <div class="skills-coding dropBar" id="drop_coding">
+            <h3 class="drop-title">Front End</h3>
+          
+          <div class="grid" id="wrapper_coding">
+            <div class="wrapper-top">
+              <img class="skills-icon" src="/Personal Website/v1/assets/javascript-programming-language-icon.svg" alt="">
+              <h4>JavaScript</h4>
+            </div>
+            <div class="wrapper-top">
+              <img class="skills-icon" src="/Personal Website/v1/assets/css-icon.svg" alt="">
+              <h4>CSS</h4>
+            </div>
+            <div class="wrapper-top">
+              <img class="skills-icon" src="/Personal Website/v1/assets/html-icon.svg" alt="">
+              <h4>HTML</h4>
+            </div>
+          </div>
+            <div class="wrapper-web">
+            <div class="wrapper-top">
+              <img class="skills-icon flex-icon" src="/Personal Website/v1/assets/typescript-programming-language-icon.svg" alt="">
+              <h4>TypeScript</h4>
+            </div>
+            <div class="wrapper-top">
+              <img class="skills-icon flex-icon" class="skills-icon" src="/Personal Website/v1/assets/react-js-icon.svg" alt="">
+              <h4>React</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-coding dropBar" id="drop_coding">
+          <h3 class="drop-title">Back End</h3>
+        
+        <div class="wrapper-back" id="wrapper_coding">
+          <div class="wrapper-top">
+            <img class="skills-icon flex-icon" src="/Personal Website/v1/assets/python-programming-language-icon.svg" alt="">
+            <h4>Python</h4>
+          </div>
+          <div class="wrapper-top">
+            <img class="skills-icon flex-icon" src="/Personal Website/v1/assets/node-js-icon.svg" alt="">
+            <h4>Node</h4>
+          </div>
+          <div class="wrapper-top">
+            <img class="skills-icon flex-icon" src="/Personal Website/v1/assets/mysql-icon.svg" alt="">
+            <h4>MySQL</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-coding dropBar" id="drop_coding">
+        <h3 class="drop-title">Tools</h3>
+      
+      <div class="wrapper-tools" id="wrapper_coding">
+        <div class="wrapper-top">
+          <img class="skills-icon github flex-icon" src="/Personal Website/v1/assets/github-icon.svg" alt="">
+          <h4>Github</h4>
+        </div>
+        <div class="wrapper-top">
+          <img class="skills-icon flex-icon" src="/Personal Website/v1/assets/adobe-photoshop-icon.svg" alt="">
+          <h4>Photoshop</h4>
+        </div>
+        <div class="wrapper-top">
+          <img class="skills-icon flex-icon" src="/Personal Website/v1/assets/figma-icon.svg" alt="">
+          <h4>Figma</h4>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+        </div>
+      </div>
+    </section>
+
+    <!--<section class="portfolio section">
+      <div class="portfolio-section container">
+        <h1 class="section-title">Portfolio</h1>
+
+      </div>
+    </section>
+
+    <section class="services section">
+      <div class="services-section container">
+        <h1 class="section-title">Services</h1>
+        <div class="services-content content">
+
+        </div>
+      </div>
+    </section>-->
+    
+    <section class="contact section" id="contact-section">
+      <div class="contact-section container">
+        <h1 class="section-title">Contact Me</h1>
+        <div class="contact-content content">
+          <p><span class="intro-subtitle"><b>kevephdev@gmail.com</b></span></p>
+          <form class="contact-form" action="https://formsubmit.co/kevephdev@gmail.com" method="POST">
+            <div>
+              <label for="name">Your Name</label>
+              <input class="form-input form-boxes" type="text" name="name" required placeholder="Name">
+          </div>
+          <div>
+            <label for="name">Your E-mail</label>
+            <input class="form-input form-boxes" type="email" name="email" required placeholder="E-mail">
+          </div>
+            <textarea class="form-message form-boxes" name="message" required placeholder="Type your message here..."></textarea>
+          <button class="form-button" type="submit"><b>Send</b></button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="footer" id="footer-section">
+      <div class="footer-content">
+      <hr class="footer-line">
+      <p class="copyright-text">© 2024 kev eph. Kevin Willer Carinhas Franck. All Rights Reserved </p>
+
+    </div>
+    </section>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
